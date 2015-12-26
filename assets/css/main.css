@@ -1,0 +1,85 @@
+body {
+ margin: 0;
+ padding: 0;
+ background-color: #111111;
+ color: #DDDDDD;
+ font-family: Verdana, Geneva, sans-serif
+ font-size: 14px;
+ overflow: hidden;
+}
+
+.content {
+ padding-top: 20px;
+ padding-left: 5px;
+ padding-right: 5px;
+ overflow: hidden;
+}
+
+.annotation {
+ font-size: 8pt;
+ font-style: italic;
+ float: left;
+ clear: both;
+}
+
+.annotation a {
+ color: #DDDDDD;
+ text-align: center;
+ text-decoration: underline;
+}
+
+.center {
+ margin: auto;
+}
+
+.block {
+ background-color: #222222;
+ color: #DDDDDD;
+ padding: 5px;
+ margin-top: 5px;
+ margin-bottom: 5px;
+ border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px;
+ border-top-right-radius: 5px;
+ border-bottom-right-radius: 5px;
+ overflow: hidden;
+}
+
+.topbar {
+ margin-top: 5px;
+ background-color: #222222;
+ width: 100%;
+ overflow: hidden;
+}
+
+.menu {
+ margin: 0;
+ font-size: 16px;
+ list-style-type: none;
+ overflow: hidden;
+ float: right;
+}
+
+.menu li {
+ display: inline-block;
+ margin-left: 6px;
+ margin-right: 6px;
+ border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px;
+ border-top-right-radius: 5px;
+ border-bottom-right-radius: 5px;
+ float: left;
+}
+
+.menu li a {
+ padding: 5px;
+ display: block;
+ color: #DDDDDD;
+ text-align: center;
+ text-decoration: none;
+}
+
+.menu li a:hover {
+ display: block;
+ background-color: #333333;
+}

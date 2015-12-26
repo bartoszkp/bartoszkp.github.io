@@ -1,0 +1,13 @@
+<div class="publication">
+<div class="title">{{include.title}}</div>
+{% if include.pdf != nil %}
+<a href="{{include.pdf}}">PDF</a>
+{% endif %}
+{% if include.link != nil %}
+<a href="{{include.link}}">LINK</a>
+{% endif %}
+<div class="authors">{{include.authors}}</div>
+<div class="where">{{include.where}}</div>
+<hr />
+</div>
+
