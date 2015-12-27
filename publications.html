@@ -1,19 +1,31 @@
 ---
 layout: default
 title: Bartosz Kazimierz Papis&#58; Publications
-css: list.css;publications.css
+css: list.css;publications.css;perfect-scrollbar.min.css;flash.css
+js: initScroll.js;perfect-scrollbar.min.js;flash.js
 ---
 
-<div class="block center" style="width: 35%;">
-  If there is no PDF link available feel free to contact me <br/> - for most journals/conferences it is allowed to share pre-prints.
-</div>
-<div class="block center list centered-width">
+{% include rightmenu.html main="publications.html" positions="2014;2013;2011" %}
+
+<!-- <div class="block" style="float: left; width: 15%;"> -->
+<!--   If there is no PDF link available feel free to contact me <br/> - for most journals/conferences it is allowed to share pre-prints. -->
+<!-- </div> -->
+
+<div id="scroll-container" class="always-visible wrapper" style="padding-right: 40px; margin-bottom: 10px;">
+<div id="2014" class="block center list wrapped-width">
   <p>2014</p>
   {% include publication.html title="Neighbourhood approach to bisimulation in state abstraction for quantized domains" authors="B. Papis, A. Pacut" where="19th International Conference On Methods and Models in Automation and Robotics (MMAR), 566-571" link="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6957416&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6957416" %}
   {% include publication.html title="Multispace, Dynamic, Fixed-Radius, All Nearest Neighbours Problem" authors="B. Papis, A. Pacut" where="16th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC), 244-250" link="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7034690&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7034690" %}
   {% include publication.html title="Evaluation of Colour Recognition Algorithms with a Palette Designed for Applications <br /> which Aid People with Visual Impairment" authors="B. Papis" where="International Journal of Image, Graphics and Signal Processing (IJIGSP), 1-7" pdf="http://www.mecs-press.org/ijigsp/ijigsp-v6-n12/IJIGSP-V6-N12-1.pdf" %}
+</div>
+
+<div id="2013" class="block center list wrapped-width">
   <p>2013</p>
   {% include publication.html title="dotRL: A platform for rapid Reinforcement Learning methods development and validation" authors="B. Papis, P. Wawrzyński" where="Federated Conference on Computer Science and Information Systems (FedCSIS), 129-136" pdf="http://staff.elka.pw.edu.pl/~pwawrzyn/pub-s/1301_dotrl.pdf" %}
+</div>
+
+<div id="2011" class="block center list wrapped-width">
   <p>2011</p>
   {% include publication.html title="Fixed point method for autonomous on-line neural network training" authors="P. Wawrzyński, B. Papis" where="Neurocomputing 74 (17), 2893-2905" pdf="http://www.researchgate.net/profile/Pawel_Wawrzynski/publication/220550793_Fixed_point_method_for_autonomous_on-line_neural_network_training/links/5404820d0cf23d9765a63a95.pdf" %}
+</div>
 </div>
