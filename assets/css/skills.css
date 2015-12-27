@@ -1,29 +1,19 @@
-.publication {
+.skill {
  margin: 5px;
 }
 
-.title {
+.name {
  font-size: 14px;
- font-style: italic;
  color: #DDDDDD;
  display: table-cell;
 }
 
-.publication a {
+.skill a {
  color: #DDDDDD;
  display: table-cell;
  text-decoration: underline;
  margin-right: 0;
- margin-left: auto;
+ margin-left: 100px;
  float: right;
-}
-
-.authors {
- font-size: 14px;
- color: #AAAAAA;
-}
-
-.where {
- font-size: 12px;
- color: #AAAAAA;
+ display: inline-block;
 }

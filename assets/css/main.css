@@ -3,8 +3,9 @@ body {
  padding: 0;
  background-color: #444444;
  color: #DDDDDD;
- font-family: Verdana, Geneva, sans-serif
- font-size: 14px;
+ font-family: Helvetica, sans-serif;
+ letter-spacing: 0.5px;
+ font-size: 16px;
  overflow: hidden;
 }
 
@@ -38,8 +39,18 @@ body {
  padding: 5px;
  margin-top: 5px;
  margin-bottom: 5px;
+ margin-left: auto;
+ margin-right: auto;
  border-radius: 5px;
  overflow: hidden;
+}
+
+.wrapper {
+ position: relative;
+ width: 55%;
+ height: 80%;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 .topbar {
@@ -55,17 +66,18 @@ body {
  list-style-type: none;
  overflow: hidden;
  float: right;
+ padding: 0;
 }
 
-.menu li {
- display: inline-block;
+.topmenu li {
  margin-left: 6px;
  margin-right: 6px;
- border-top-left-radius: 5px;
- border-bottom-left-radius: 5px;
- border-top-right-radius: 5px;
- border-bottom-right-radius: 5px;
  float: left;
+}
+
+.rightmenu li {
+ margin-top: 6px;
+ margin-bottom: 6px;
 }
 
 .menu li a {

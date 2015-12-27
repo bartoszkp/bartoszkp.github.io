@@ -1,0 +1,9 @@
+<div class="block" style="position: fixed; right: 0; margin: 5px; z-index: 1;">
+<ul class="menu rightmenu">
+{% assign positions = include.positions | split: ';' %}
+{% for position in positions %}
+{% assign id = position | downcase | remove: " " %}
+<li><a href="skills.html#{{id}}" onclick="flash('{{id}}');">{{position}}</a></li>
+{% endfor %}
+</ul>
+</div>

@@ -3,8 +3,14 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"> 
 <title> {{page.title}} </title>
 <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
-{% for css in page.css | split: ';' %}
+{% assign csss = page.css | split: ';' %}
+{% for css in csss %}
 <link rel="stylesheet" type="text/css" href="assets/css/{{css}}" />
+{% endfor %}
+
+{% assign jss = page.js | split: ';' %}
+{% for js in jss %}
+<script type="text/javascript" src="assets/js/{{js}}"></script>
 {% endfor %}
 </head>
 <body>
