@@ -3,15 +3,19 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"> 
 <title> {{page.title}} </title>
 <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+{% if page.css != nil %}
 {% assign csss = page.css | split: ';' %}
 {% for css in csss %}
 <link rel="stylesheet" type="text/css" href="assets/css/{{css}}" />
 {% endfor %}
+{% endif %}
 
+{% if page.js != nil %}
 {% assign jss = page.js | split: ';' %}
 {% for js in jss %}
 <script type="text/javascript" src="assets/js/{{js}}"></script>
 {% endfor %}
+{% endif %}
 </head>
 <body>
 {% include topbar.html %}
