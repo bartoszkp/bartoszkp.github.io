@@ -1,0 +1,8 @@
+<div>
+<img src="{{ include.src }}" {% if include.style != nil %} style="{{ include.style }}" {% endif %} {% if include.alt != nil %} alt="{{ include.alt }}" {% endif %}/>
+<div class="annotation">
+{% if include.annotation != nil %}
+  {{ include.annotation }}
+{% endif %}
+</div>
+</div>

@@ -1,10 +1,10 @@
 .flashing {
  <!-- Important stuff here -->
- -webkit-transition: flash 1s ease-out;
- -moz-transition: flash 1s ease-out;
- -o-transition: flash 1s ease-out;
- transition: flash 1s ease-out;
- animation: flash 1s forwards linear normal;
+ -webkit-transition: flash 0.75s ease-out;
+ -moz-transition: flash 0.75s ease-out;
+ -o-transition: flash 0.75s ease-out;
+ transition: flash 0.75s ease-out;
+ animation: flash 0.75s forwards linear normal;
 }
 
 @keyframes flash {
