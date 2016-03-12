@@ -26,6 +26,8 @@
  margin-right: 0;
  margin-left: auto;
  float: right;
+ font-size: 13px;
+ font-weight: bold;
 }
 
 .always-visible.ps-container > .ps-scrollbar-x-rail,

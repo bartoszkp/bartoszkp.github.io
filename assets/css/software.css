@@ -9,9 +9,15 @@
  display: table-cell;
 }
 
-.licence {
- font-size: 12px;
+.description {
+ font-size: 13px;
  color: #AAAAAA;
+}
+
+.licence {
+ font-size: 11px;
+ color: #AAAAAA;
+ margin-top: 5px;
 }
 
 .licence:after {
