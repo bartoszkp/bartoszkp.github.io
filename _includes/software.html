@@ -1,6 +1,9 @@
 <div class="software">
 <div class="title">{{include.title}}</div>
-<a class="rightlink" href="{{include.link}}">{{include.linkname}}</a>
+<a class="rightlink" href="{{include.link}}" target="_blank">{{include.linkname}}</a>
+{% if include.secondlink != nil %}
+<a class="rightlink" style="clear: both; margin-top: 5px; " href="{{include.secondlink}}" target="_blank">{{include.secondlinkname}}</a>
+{% endif %}
 <div class="description">{{include.description}}</div>
 <div class="licence">{{include.licence}}</div>
 </div>
