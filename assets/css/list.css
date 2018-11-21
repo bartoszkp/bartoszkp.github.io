@@ -23,7 +23,7 @@
 
 .list .rightlink {
  display: table-cell;
- margin-right: 0;
+ margin-right: 5;
  margin-left: auto;
  float: right;
  font-size: 13px;
