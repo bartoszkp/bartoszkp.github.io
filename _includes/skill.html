@@ -1,4 +1,7 @@
 <div class="skill">
+{% if include.pdf != nil %}
+<a class="rightlink" href="{{include.pdf}}" target="_blank">PDF</a>
+{% endif %}
 {% if include.link != nil %}
 <a class="rightlink" href="{{include.link}}" target="_blank">{{include.linkname}}</a>
 {% endif %}
